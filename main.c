@@ -7,7 +7,7 @@ int main()
     unsigned long long int fact=1;
     //f=factorial
     //no=input number
-    printf("Enter any number : ");
+    printf("Enter any number: ");
     scanf("%d",&no);
 
     if(no<0)
@@ -21,7 +21,7 @@ int main()
         {
             fact=f*i;
         }
-        printf("Factorial of %d= %ull",no,f);
+        printf("Factorial of %d= %llu",no,f);
     }
 
 
