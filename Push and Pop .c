@@ -4,6 +4,7 @@
 struct struct1 {
   int number[5];
   int top;
+  
 }st;
 
 void push(int number)
@@ -30,6 +31,11 @@ int main()
   st.top=0;
   int numbe=0;
   int temp=0;
+  
+  printf("Please select \n\n");
+  printf("1 ==> Push elements(Add elements to the array.)\n");
+  printf("2 ==> Pop elements (remove elements from array.\n\n)");
+
 
 for(int i =0 ; i<10;i++){
   printf("Select a Number :");
