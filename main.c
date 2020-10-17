@@ -6,13 +6,13 @@ int main()
     int no,i,f;
     unsigned long long int fact=1;
     //f=factorial
-    //no=input number
-    printf("Enter any number: ");
+    //no=enter a number
+    printf("insert any number: ");
     scanf("%d",&no);
 
     if(no<0)
     {
-        printf("#Invalid number#");
+        printf("number is not valid");
     }
 
     else
