@@ -3,25 +3,25 @@
 
 int main()
 {
-    int no,i,f;
+    int num,i,fac;
     unsigned long long int fact=1;
-    //f=factorial
-    //no=enter a number
+    //fac=factorial
+    //num=enter a number
     printf("insert any number: ");
-    scanf("%d",&no);
+    scanf("%d",&num);
 
-    if(no<0)
+    if(num<0)
     {
         printf("number is not valid");
     }
 
     else
     {
-       for(i=0;i<=no;i++)
+       for(i=0;i<=num;i++)
         {
-            fact=f*i;
+            fact=fac*i;
         }
-        printf("Factorial of %d= %llu",no,f);
+        printf("Factorial of %d= %llu",num,fac);
     }
 
 
