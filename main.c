@@ -5,10 +5,18 @@ int main()
 {
     int num,i,fac;
     unsigned long long int fact=1;
+
+    //f=factorial
+    //no=input number
+    printf("Enter any number : ");
+    scanf("%d",&no);
+    scanf
+=======
     //fac=factorial
     //num=enter a number
     printf("insert any number: ");
     scanf("%d",&num);
+
 
     if(num<0)
     {
