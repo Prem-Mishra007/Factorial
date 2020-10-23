@@ -9,6 +9,7 @@ int main()
     //no=input number
     printf("Enter any number : ");
     scanf("%d",&no);
+    scanf
 
     if(no<0)
     {
