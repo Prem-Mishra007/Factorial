@@ -3,20 +3,15 @@
 
 int main()
 {
-    int num,i,fac;
+    int num,i;
     unsigned long long int fact=1;
 
     //f=factorial
     //no=input number
     printf("Enter any number : ");
-    scanf("%d",&no);
-    scanf
-=======
+    scanf("%d",&num);
     //fac=factorial
     //num=enter a number
-    printf("insert any number: ");
-    scanf("%d",&num);
-
 
     if(num<0)
     {
@@ -25,13 +20,14 @@ int main()
 
     else
     {
-       for(i=0;i<=num;i++)
+       for(i=1;i<=num;i++)
         {
-            fact=fac*i;
+            fact=fact*i;
         }
-        printf("Factorial of %d= %llu",num,fac);
+        printf("Factorial of %d= %llu",num,fact);
     }
 
 
     return 0;
 }
+
